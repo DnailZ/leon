@@ -1,0 +1,13 @@
+{
+	"finance": {
+		"found": [
+			"%name%: %price% <br/> <img src=\"/assets/%src%\" width=\"512\">"
+		],
+        "not_found": [
+            "Please provide me a name of stock or cyptocurrency."
+        ],
+        "except": [
+            "%error% [%res%]"
+        ]
+	}
+}

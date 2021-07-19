@@ -1,0 +1,10 @@
+{
+	"dictionary": {
+		"found": [
+			"%result%"
+		],
+        "not_found": [
+            "Please provide me a word."
+        ]
+	}
+}

@@ -14,7 +14,7 @@ import loader from '@/helpers/loader'
     const globs = [
       '"app/src/js/*.js"',
       '"hotword/index.js"',
-      '"packages/**/*.js"',
+    //   '"packages/**/*.js"',
       '"scripts/**/*.js"',
       '"server/src/**/*.js"',
       '"test/*.js"',

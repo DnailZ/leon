@@ -8,5 +8,9 @@ requests = "==2.21.0"
 pytube = "==9.5.0"
 tinydb = "==3.9.0"
 beautifulsoup4 = "==4.7.1"
+freegames = "==2.3.2"
+mplfinance = "==0.12.7a7"
+whoosh = "==2.7.4"
+quandl = "==3.6.1"
 
 [dev-packages]

@@ -1,0 +1,21 @@
+{
+  "dictionary": {
+    "lookup": {
+      "expressions": [
+        "defination of x"
+      ],
+        "entities": [
+        {
+          "type": "trim",
+          "name": "word",
+          "conditions": [
+            {
+              "type": "after",
+              "from": "of"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

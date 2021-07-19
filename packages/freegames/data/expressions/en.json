@@ -1,0 +1,28 @@
+{
+  "freegames": {
+    "start": {
+      "expressions": [
+        "Play free game x",
+        "Play game x",
+        "let's play free game x",
+        "let's play game x",
+        "Start free game x",
+        "Start game x",
+        "Run free game x",
+        "run game x"
+      ],
+        "entities": [
+        {
+          "type": "trim",
+          "name": "game",
+          "conditions": [
+            {
+              "type": "after",
+              "from": "game"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

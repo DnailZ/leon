@@ -1,0 +1,12 @@
+{
+	"freegames": {
+		"start_game": [
+			"Game Starting.",
+			"Have Fun!"
+		],
+        "game_not_provided": [
+            "Please provide me a game name.",
+            "Please provide the name of a game."
+        ]
+	}
+}

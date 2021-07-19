@@ -1,0 +1,52 @@
+{
+  "finance": {
+    "query": {
+      "expressions": [
+        "price of x",
+        "stock price of x",
+        "the price of x",
+        "the stock price of x",
+        "current price of x",
+        "current stock price of x",
+        "the current price of x",
+        "the current stock price of x",
+        "show me price of x",
+        "show me stock price of x",
+        "show me the price of x",
+        "show me the stock price of x",
+        "show me current price of x",
+        "show me current stock price of x",
+        "show me the current price of x",
+        "show me the current stock price of x",
+        "what's price of x",
+        "what's stock price of x",
+        "what's the price of x",
+        "what's the stock price of x",
+        "what's current price of x",
+        "what's current stock price of x",
+        "what's the current price of x",
+        "what's the current stock price of x",
+        "what is price of x",
+        "what is stock price of x",
+        "what is the price of x",
+        "what is the stock price of x",
+        "what is current price of x",
+        "what is current stock price of x",
+        "what is the current price of x",
+        "what is the current stock price of x"
+      ],
+        "entities": [
+        {
+          "type": "trim",
+          "name": "query",
+          "conditions": [
+            {
+              "type": "after",
+              "from": "of"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
